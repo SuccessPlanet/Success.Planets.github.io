@@ -52,6 +52,7 @@
         font-family: "Open Sans", sans-serif;
         padding-top: 0;
       }
+
       .menu {
         background: #f5d76e;
         padding: 0;
@@ -59,11 +60,13 @@
         position: relative;
         z-index: 1000;
       }
+
       .navbar-wrapper {
         background: #f5d76e;
         position: relative;
         z-index: 1000;
       }
+
       /* Fix header hover/active styling */
       .navbar.navbar-inverse.navbar-static-top a:hover,
       .navbar.navbar-inverse.navbar-static-top a:focus,
@@ -74,15 +77,18 @@
         color: #273342 !important;
         border-bottom: 2px solid #273342 !important;
       }
+
       .navbar.navbar-inverse.navbar-static-top a {
         color: #273342;
       }
+
       .register-container {
         padding: 40px 15px;
         background: #fafafb;
         margin-top: 80px;
         min-height: calc(100vh - 80px);
       }
+
       .register-box {
         background: white;
         border-radius: 10px;
@@ -99,14 +105,17 @@
           padding: 30px 15px;
           margin-top: 70px;
         }
+
         .register-box {
           padding: 30px 25px;
           max-width: 100%;
           border: 2px solid #e0e0e0;
         }
+
         .register-header h2 {
           font-size: 2em !important;
         }
+
         .register-header {
           margin-bottom: 25px;
         }
@@ -117,18 +126,22 @@
           padding: 20px 10px;
           margin-top: 60px;
         }
+
         .register-box {
           padding: 25px 20px;
           border: 2px solid #e0e0e0;
         }
+
         .register-header h2 {
           font-size: 1.8em !important;
         }
       }
+
       .register-header {
         text-align: center;
         margin-bottom: 35px;
       }
+
       .register-header h2 {
         color: #273342;
         font-size: 2.5em;
@@ -136,13 +149,16 @@
         font-weight: bold;
         font-family: "Montserrat", sans-serif;
       }
+
       .register-header p {
         color: #8c9099;
         font-size: 1.1em;
       }
+
       .form-group {
         margin-bottom: 20px;
       }
+
       .form-group label {
         color: #273342;
         font-weight: 600;
@@ -150,6 +166,7 @@
         display: block;
         font-family: "Montserrat", sans-serif;
       }
+
       .form-group input,
       .form-group select {
         width: 100%;
@@ -160,12 +177,14 @@
         transition: all 0.3s;
         font-family: "Open Sans", sans-serif;
       }
+
       .form-group input:focus,
       .form-group select:focus {
         outline: none;
         border-color: #f5d76e;
         box-shadow: 0 0 0 3px rgba(245, 215, 110, 0.1);
       }
+
       .btn-register {
         width: 100%;
         padding: 15px;
@@ -181,38 +200,46 @@
         font-family: "Montserrat", sans-serif;
         text-transform: uppercase;
       }
+
       .btn-register:hover {
         background: #45a049;
         transform: translateY(-2px);
         box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
       }
+
       .login-link {
         text-align: center;
         margin-top: 25px;
         padding-top: 25px;
         border-top: 1px solid #e0e0e0;
       }
+
       .login-link a {
         color: #f5d76e;
         text-decoration: none;
         font-weight: 600;
       }
+
       .login-link a:hover {
         text-decoration: underline;
         color: #f4c430;
       }
+
       .form-row {
         display: flex;
         gap: 15px;
       }
+
       .form-row .form-group {
         flex: 1;
       }
+
       .password-requirements {
         font-size: 0.85em;
         color: #8c9099;
         margin-top: 5px;
       }
+
       /* Custom Success Modal */
       .success-modal-overlay {
         display: none;
@@ -225,6 +252,7 @@
         z-index: 99999;
         animation: fadeIn 0.3s ease;
       }
+
       .success-modal {
         position: fixed;
         top: 50%;
@@ -240,24 +268,29 @@
         animation: slideDown 0.4s ease;
         overflow: hidden;
       }
+
       @keyframes fadeIn {
         from {
           opacity: 0;
         }
+
         to {
           opacity: 1;
         }
       }
+
       @keyframes slideDown {
         from {
           opacity: 0;
           transform: translate(-50%, -60%);
         }
+
         to {
           opacity: 1;
           transform: translate(-50%, -50%);
         }
       }
+
       .success-modal-header {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         padding: 40px 30px;
@@ -265,6 +298,7 @@
         color: white;
         position: relative;
       }
+
       .success-icon {
         width: 100px;
         height: 100px;
@@ -277,51 +311,62 @@
         animation: scaleIn 0.5s ease 0.2s both;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
       }
+
       .success-icon i {
         font-size: 50px;
         color: #4caf50;
         animation: checkmark 0.6s ease 0.4s both;
       }
+
       @keyframes scaleIn {
         from {
           transform: scale(0);
         }
+
         to {
           transform: scale(1);
         }
       }
+
       @keyframes checkmark {
         0% {
           transform: scale(0) rotate(45deg);
         }
+
         50% {
           transform: scale(1.2) rotate(45deg);
         }
+
         100% {
           transform: scale(1) rotate(0deg);
         }
       }
+
       .success-modal-header h2 {
         margin: 0;
         font-size: 2em;
         font-weight: bold;
         color: white;
       }
+
       .success-modal-header p {
         margin: 10px 0 0;
         font-size: 1.1em;
         opacity: 0.9;
       }
+
       .success-modal-body {
         padding: 40px 30px;
         text-align: center;
       }
+
       .success-modal-body p {
         color: #666;
         font-size: 1.1em;
         line-height: 1.6;
         margin-bottom: 30px;
       }
+
       .success-modal-btn {
         background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
         color: white;
@@ -336,13 +381,16 @@
         text-transform: uppercase;
         letter-spacing: 1px;
       }
+
       .success-modal-btn:hover {
         transform: translateY(-2px);
         box-shadow: 0 8px 25px rgba(76, 175, 80, 0.5);
       }
+
       .success-modal-btn:active {
         transform: translateY(0);
       }
+
       .confetti {
         position: absolute;
         width: 10px;
@@ -351,11 +399,13 @@
         position: absolute;
         animation: confettiFall 3s ease infinite;
       }
+
       @keyframes confettiFall {
         0% {
           transform: translateY(-100px) rotate(0deg);
           opacity: 1;
         }
+
         100% {
           transform: translateY(500px) rotate(720deg);
           opacity: 0;
@@ -363,6 +413,7 @@
       }
     </style>
   </head>
+
   <body>
     <!--wrapper start-->
     <div class="wrapper" id="wrapper">
@@ -578,7 +629,7 @@
           <div class="row">
             <div class="pull-left">
               <p style="color: white; margin: 0">
-                &copy; 2024 Success Planet. All Rights Reserved
+                &copy; 2025 Success Planet. All Rights Reserved
               </p>
             </div>
             <div class="pull-right">
@@ -667,18 +718,33 @@
             return false;
           }
 
-          // Save user data to localStorage with 3-day expiration
+          // Save user data to localStorage
           var userData = {
+            id: Date.now(),
+            name: $("#fullName").val(), // Admin panel expects 'name'
             fullName: $("#fullName").val(),
             email: $("#email").val(),
             class: $("#class").val(),
             password: password, // In production, this should be hashed
+            phone: "", // Added for compatibility
+            verified: false,
             registrationDate: new Date().toISOString(),
             expirationDate: new Date(
               Date.now() + 3 * 24 * 60 * 60 * 1000
             ).toISOString(), // 3 days from now
           };
 
+          // Add to users list for Admin Panel
+          var users = JSON.parse(localStorage.getItem("ls_users") || "[]");
+          // Check if email already exists
+          if (users.some((u) => u.email === userData.email)) {
+            alert("Email already registered!");
+            return false;
+          }
+          users.push(userData);
+          localStorage.setItem("ls_users", JSON.stringify(users));
+
+          // Set current session
           localStorage.setItem("userData", JSON.stringify(userData));
           localStorage.setItem("isLoggedIn", "true");
 

@@ -560,10 +560,13 @@
       <!--Header start -->
       <header>
         <!--menu start-->
-        <div class="menu">
+        <!-- FIXED TOP NAVBAR -->
+        <div
+          class="menu"
+          style="position: fixed; top: 0; left: 0; width: 100%; z-index: 999"
+        >
           <div class="navbar-wrapper">
             <div class="container">
-              <!-- Navbar start -->
               <div class="navwrapper">
                 <div class="navbar navbar-inverse navbar-static-top">
                   <div class="container">
@@ -611,9 +614,9 @@
                             <a href="register.html">Register</a>
                           </li>
                           <li class="menuItem" id="profileMenuItem">
-                            <a href="profile.html">
-                              <i class="fa fa-user-circle"></i> Profile
-                            </a>
+                            <a href="profile.html"
+                              ><i class="fa fa-user-circle"></i> Profile</a
+                            >
                           </li>
                           <li class="menuItem">
                             <a href="index.html#contact">Contact</a>
@@ -624,7 +627,6 @@
                   </div>
                 </div>
               </div>
-              <!-- Navbar end -->
             </div>
           </div>
         </div>
